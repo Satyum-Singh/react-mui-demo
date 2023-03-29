@@ -10,10 +10,10 @@ import { useState } from "react";
 
 export const MuiRadioButton = () => {
   const [value, setValue] = useState("");
-  console.log({value})
-  const handleChange=(event:React.ChangeEvent<HTMLInputElement>)=>{
-    setValue(event.target.value)
-  }
+  console.log({ value });
+  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setValue(event.target.value);
+  };
   return (
     <Box>
       <FormControl error>
@@ -26,7 +26,11 @@ export const MuiRadioButton = () => {
           value={value}
           onChange={handleChange}
         >
-          <FormControlLabel control={<Radio size='medium' color='secondary' />} label="0-2" value="0-2" />
+          <FormControlLabel
+            control={<Radio size="medium" color="secondary" />}
+            label="0-2"
+            value="0-2"
+          />
           <FormControlLabel control={<Radio></Radio>} label="3-5" value="3-5" />
           <FormControlLabel
             control={<Radio></Radio>}
