@@ -33,7 +33,7 @@ export const MuiAutoComplete = () => {
         options={skillOption}
         renderInput={(params) => <TextField {...params} label="Skills" />}
         value={skill}
-        onChange={(event: any, newSkill: Skill | null) => setskill(newSkill)}
+        // onChange={(event: any, newSkill: Skill | null) => setskill(newSkill)}
         freeSolo
       />
     </Stack>
