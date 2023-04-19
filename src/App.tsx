@@ -11,7 +11,10 @@ import './App.css';
 // import { MuiLayout } from './components/MuiLayout';
 // import { MuiCard } from './components/MuiCard';
 // import { MuiAccordian } from './components/MuiAccordian';
-import {MuiImageList} from './components/MuiImageList';
+// import {MuiImageList} from './components/MuiImageList';
+import {MuiNavbar} from './components/MuiNavbar';
+import {MuiLink} from './components/MuiLink'
+import { MuiBreadcrumbs } from './components/MuiBreadcrumbs';
 
 
 function App() {
@@ -60,7 +63,17 @@ function App() {
 
 
 
-      <MuiImageList></MuiImageList>
+      {/* <MuiImageList></MuiImageList> */}
+
+
+
+      <MuiNavbar></MuiNavbar>
+
+
+      {/* <MuiLink></MuiLink> */}
+
+
+      <MuiBreadcrumbs></MuiBreadcrumbs>
     </div>
   );
 }
