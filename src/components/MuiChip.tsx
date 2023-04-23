@@ -9,8 +9,8 @@ export const MuiChip = () => {
       <Chip
         label="Chip-outlined"
         color="secondary"
-        size="small"
-        variant="outlined"
+        size='small'
+        variant='outlined'
         avatar={<Avatar>V</Avatar>}
       />
       <Chip
