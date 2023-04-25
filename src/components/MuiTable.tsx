@@ -6,7 +6,6 @@ import {
     TableRow,
     TableCell,
     Paper,
-    Tab
 } from '@mui/material'
 
 export const MuiTable = () => {
