@@ -28,8 +28,8 @@ import './App.css';
 // import { MuiSnackbar } from './components/MuiSnackbar';
 // import { MuiDialog } from './components/MuiDialog';
 // import { MuiProgress } from './components/MuiProgress';
-import { MuiSkeleton } from './components/MuiSkeleton';
-
+// import { MuiSkeleton } from './components/MuiSkeleton';
+import { MuiLoading } from './components/MuiLoading';
 
 function App() {
   return (
@@ -133,7 +133,10 @@ function App() {
       {/* <MuiProgress></MuiProgress> */}
 
 
-      <MuiSkeleton></MuiSkeleton>
+      {/* <MuiSkeleton></MuiSkeleton> */}
+
+
+      <MuiLoading></MuiLoading>
     </div>
   );
 }
